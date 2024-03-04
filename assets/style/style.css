@@ -25,7 +25,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #494a3c;
+  background-color: rgba(73, 74, 60, 0.5019607843);
   padding: 0.5rem;
   border-radius: 1rem;
   margin: 0.5rem;
@@ -37,18 +37,18 @@
 .page-footer .container .row .col.l6.s12 ul li p {
   font-size: 1rem;
 }
-.page-footer .container .row .col.offset-l2.s12 h5 {
+.page-footer .container .row .col.l4.offset-l2.s12 h5 {
   text-shadow: black 2px 5px;
   text-align: center;
   font-weight: bold;
 }
-.page-footer .container .row .col.offset-l2.s12 ul {
+.page-footer .container .row .col.l4.offset-l2.s12 ul {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   line-height: 5rem;
 }
-.page-footer .container .row .col.offset-l2.s12 ul li {
+.page-footer .container .row .col.l4.offset-l2.s12 ul li {
   font-weight: bold;
   font-size: 2rem;
 }

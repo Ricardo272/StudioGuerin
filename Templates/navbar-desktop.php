@@ -11,7 +11,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Nos Projets<i
                             class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="badges.html">Services</a></li>
+                <li><a href="../Controllers/services.php">Services</a></li>
                 <li><a href="../Controllers/contact.php">Contact</a></li>
             </ul>
         </div>

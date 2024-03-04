@@ -46,7 +46,7 @@
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
-                        background-color: #494a3c;
+                        background-color: #494a3c80;
                         padding: .5rem;
                         border-radius: 1rem;
                         margin: .5rem;
@@ -64,7 +64,7 @@
                 }
             }
 
-            .col.offset-l2.s12 {
+            .col.l4.offset-l2.s12 {
                 h5 {
                     text-shadow: black 2px 5px;
                     text-align: center;
@@ -72,15 +72,18 @@
                 }
 
                 ul {
+                    align-items: center;
                     display: flex;
                     flex-direction: column;
-                    align-items: flex-start;
                     line-height: 5rem;
 
                     li {
                         font-weight: bold;
                         font-size: 2rem;
+
+
                     }
+
                 }
             }
 

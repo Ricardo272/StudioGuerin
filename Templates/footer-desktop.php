@@ -4,15 +4,15 @@
             <div class="col l6 s12 ">
                 <h5 class="white-text">Contact</h5>
                 <ul>
-                    <li>
+                    <li class="z-depth-5">
                         <h6>Téléphone</h6>
                         <p>0123456789</p>
                     </li>
-                    <li>
+                    <li class="z-depth-5">
                         <h6>Email</h6>
                         <p>emailentreprise@gmail.com</p>
                     </li>
-                    <li>
+                    <li class="z-depth-5">
                         <h6>Adresse</h6>
                         <p>2 rue Saint Jean <br>
                             27000 Evreux </p>
