@@ -1,7 +1,94 @@
+.navbar-fixed {
+    nav {
+        background-color: #545643;
+
+        .nav-wrapper {
+
+            img {
+                width: 4.5rem;
+                margin: .5rem;
+            }
+
+            ul {
+                li {
+                    a {
+                        font-size: 1.5rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-footer {
+    background-color: #545643;
+
+    .container {
+        .row {
+
+            .col.l6.s12 {
+                h5 {
+                    text-shadow: black 2px 5px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                ul {
+                    li {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        background-color: #494a3c;
+                        padding: .5rem;
+                        border-radius: 1rem;
+                        margin: .5rem;
+
+                        h6 {
+                            font-weight: bold;
+                            font-size: 1rem;
+
+                        }
+
+                        p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .col.offset-l2.s12 {
+                h5 {
+                    text-shadow: black 2px 5px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    line-height: 5rem;
+
+                    li {
+                        font-weight: bold;
+                        font-size: 2rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
 .home {
+    background-color: rgb(152, 152, 152);
+
     .imgparallax {
-        border: solid;
-        background-image: url("../Img/motifSkull.png");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../Background/Lodge\(16\).jpg");
 
 
         /* Set a specific height */
@@ -12,6 +99,34 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+        .titre {
+            h1 {
+                font-weight: bold;
+                color: black;
+                text-shadow: white 2px 5px;
+            }
+
+            h2 {
+                font-weight: bold;
+                color: black;
+                text-shadow: white 2px 5px;
+
+            }
+        }
+    }
+
+    .container {
+        h3 {
+            text-shadow: rgb(255, 255, 255) 2px 0 10px;
+
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
     }
 
 }

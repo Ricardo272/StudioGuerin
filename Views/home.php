@@ -19,19 +19,22 @@
         ?>
 
     <div class="imgparallax">
-        <h1 class="center-align">StudioGuerin</h1>
-        <h2 class="center-align">Dessinateur d'architecture</h2>
+        <div class="titre">
+            <h1 class="center-align">StudioGuerin</h1>
+            <h2 class="center-align">Dessinateur d'architecture</h2>
+        </div>
+
     </div>
 
     <div class="container">
-        <h2>Bienvenue chez StudioGuerin</h2>
+        <h3>Bienvenue chez StudioGuerin</h3>
         <p>StudioGuerin est un studio d’architecture basé sur Lyon, l’entreprise ce
             concentre principalement sur... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, ipsum
             error at dicta neque perferendis eos quam temporibus hic explicabo non obcaecati quae cum! Laboriosam
             expedita excepturi id natus, ex temporibus optio ipsa commodi, sapiente dolores quae! Quibusdam id est
             numquam fugit expedita veritatis, voluptate quae assumenda autem voluptatem eaque. </p>
 
-        <h2>Qui sommes-nous ?</h2>
+        <h3>Qui sommes-nous ?</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sit voluptatum consequatur odit doloribus sint
             ipsam fugit reprehenderit exercitationem accusamus vero error obcaecati repellat, quasi ex, quam in commodi
             fugiat nesciunt, qui autem tempore magni! Necessitatibus recusandae quod sapiente praesentium laudantium
