@@ -1,12 +1,17 @@
+//
+// Bar de navigation
 .navbar-fixed {
     nav {
-        background-color: #545643;
+        background: linear-gradient(#60648e, #545643);
 
         .nav-wrapper {
 
             img {
-                width: 4.5rem;
+                width: 4rem;
                 margin: .5rem;
+                background-color: white;
+                padding: .1rem;
+                border-radius: .5rem;
             }
 
             ul {
@@ -21,8 +26,10 @@
     }
 }
 
+//
+// Footer
 .page-footer {
-    background-color: #545643;
+    background: linear-gradient(#545643, #60648e);
 
     .container {
         .row {
@@ -79,10 +86,16 @@
 
         }
     }
+
+    .footer-copyright {
+        background-color: #545643;
+    }
 }
 
+//
+// Page Home
 .home {
-    background-color: rgb(152, 152, 152);
+    background-color: bisque;
 
     .imgparallax {
         display: flex;
@@ -104,13 +117,13 @@
             h1 {
                 font-weight: bold;
                 color: black;
-                text-shadow: white 2px 5px;
+                text-shadow: white 2px 5px 5px;
             }
 
             h2 {
                 font-weight: bold;
                 color: black;
-                text-shadow: white 2px 5px;
+                text-shadow: white 2px 5px 5px;
 
             }
         }
@@ -129,4 +142,27 @@
         }
     }
 
+}
+
+//
+// Page Contact
+.contact {
+    background-color: bisque;
+
+    .container {
+
+        h3 {
+            font-weight: bold;
+            text-align: center;
+            text-shadow: black 2px 2px 5px;
+        }
+
+        .row {
+            form {
+                border-radius: 1rem;
+                background-color: #494a3c;
+
+            }
+        }
+    }
 }

@@ -11,46 +11,55 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="contact">
+
     <?php
     include "../Templates/navbar-desktop.php"
         ?>
+
     <div class="container">
-        <h5>Vous souhaitez soliciter nos services ? </h5>
+        <h3>Vous souhaitez soliciter nos services ? </h3>
 
         <div class="row">
-            <form method="POST" novalidate class="col s12">
+            <form method="POST" novalidate class="col s12 z-depth-5">
+
                 <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" placeholder="Nom Prénom" type="text" class="validate">
-                        <label for="icon_prefix"></label>
+                        <input id="nomClient" placeholder="Nom Prénom" type="text" class="validate">
+                        <label for="nomClient"></label>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">phone</i>
-                        <input id="icon_telephone" placeholder="Telephone" type="tel" class="validate">
-                        <label for="icon_telephone"></label>
+                        <input id="telephoneClient" placeholder="Telephone" type="tel" class="validate">
+                        <label for="telephoneClient"></label>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="input-field col s12">
                         <i class="material-icons prefix">mail</i>
-                        <input id="icon_telephone" placeholder="Email" type="email" class="validate">
-                        <label for="icon_telephone"></label>
+                        <input id="emailClient" placeholder="Email" type="email" class="validate">
+                        <label for="emailClient"></label>
                     </div>
                 </div>
+
                 <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">border_color</i>
-                                <textarea id="textarea1" placeholder="Votre Message ( facultatif ) "
-                                    class="materialize-textarea"></textarea>
-                                <label for="textarea1"></label>
-                            </div>
-                        </div>
-                    </form>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">border_color</i>
+                        <input type="text" id="messageClient" placeholder="Votre Message ( facultatif ) ">
+                        <label for="messageClient"></label>
+                    </div>
                 </div>
+
+                <button class="row btn waves-effect waves-light col s4" type="submit" name="action">Envoyer
+                    <i class="material-icons right">send</i>
+                </button>
+
+
+
+
+
             </form>
         </div>
 
