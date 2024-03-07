@@ -121,4 +121,42 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.archi .container .carousel {
+  width: 100%;
+  text-align: center;
+  font-family: Trebuchet MS;
+  display: block;
+  font-size: 1.5rem;
+}
+.archi .container .carousel page {
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  transform: scale(0);
+}
+.archi .container .carousel page div {
+  padding: 3em;
+}
+.archi .container .carousel page label {
+  cursor: pointer;
+  background: #d9ff4f;
+  padding: 1rem 2rem;
+}
+.archi .container .carousel #page1cb:checked ~ #page1 {
+  transform: scale(1);
+}
+.archi .container .carousel #page2cb:checked ~ #page2 {
+  transform: scale(1);
+}
+.archi .container .carousel #page3cb:checked ~ #page3 {
+  transform: scale(1);
+}
+.archi .container .carousel #page4cb:checked ~ #page4 {
+  transform: scale(1);
+}
+.archi .container .carousel #page5cb:checked ~ #page5 {
+  transform: scale(1);
 }/*# sourceMappingURL=style.css.map */
