@@ -113,7 +113,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../Background/Lodge(23).jpg");
+  background-image: url("../projet-archi/rendufinal1.jpg");
   /* Set a specific height */
   min-height: 300px;
   /* Create the parallax scrolling effect */
@@ -122,41 +122,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.archi .container .carousel {
-  width: 100%;
-  text-align: center;
-  font-family: Trebuchet MS;
-  display: block;
-  font-size: 1.5rem;
+.archi .container .titre {
+  display: flex;
+  justify-content: space-between;
 }
-.archi .container .carousel page {
-  position: absolute;
-  top: 2em;
-  left: 0;
-  width: 100%;
-  transition: transform 0.5s;
-  transform: scale(0);
+.archi .container .titre p {
+  font-weight: bold;
+  text-shadow: 2px -2px 4px black;
 }
-.archi .container .carousel page div {
-  padding: 3em;
+.archi .container .titre h4 {
+  font-weight: bold;
+  text-shadow: 2px -2px 4px black;
 }
-.archi .container .carousel page label {
-  cursor: pointer;
-  background: #d9ff4f;
-  padding: 1rem 2rem;
-}
-.archi .container .carousel #page1cb:checked ~ #page1 {
-  transform: scale(1);
-}
-.archi .container .carousel #page2cb:checked ~ #page2 {
-  transform: scale(1);
-}
-.archi .container .carousel #page3cb:checked ~ #page3 {
-  transform: scale(1);
-}
-.archi .container .carousel #page4cb:checked ~ #page4 {
-  transform: scale(1);
-}
-.archi .container .carousel #page5cb:checked ~ #page5 {
-  transform: scale(1);
+.archi .container .right-align p {
+  width: 20rem;
+  margin: 0 auto;
+  font-weight: 700;
+  line-height: 2rem;
 }/*# sourceMappingURL=style.css.map */

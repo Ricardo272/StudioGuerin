@@ -38,50 +38,68 @@
         </div>
     </div>
     <div class="container">
-        <div class="carousel">
-            <input type="radio" id="page1cb" checked name="pages" />
-            <input type="radio" id="page2cb" name="pages" />
-            <input type="radio" id="page3cb" name="pages" />
-            <input type="radio" id="page4cb" name="pages" />
-            <input type="radio" id="page5cb" name="pages" />
-            <!-- page 1 -->
-            <page id="page1">
-                <div>Page One!
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quod aspernatur cupiditate
-                        accusantium iusto non reiciendis soluta porro eum harum ea recusandae laborum, dolorem quidem
-                        deserunt deleniti eius sequi! Et qui illo, nulla delectus beatae quis nobis cupiditate culpa
-                        totam blanditiis soluta hic reiciendis debitis animi nemo error distinctio quasi recusandae,
-                        inventore doloremque expedita! Voluptas non error, dolorem quasi totam aperiam ullam laboriosam
-                        numquam repudiandae fugiat repellat modi id laudantium ut recusandae temporibus provident a odit
-                        ipsa accusantium deserunt assumenda. Doloremque, beatae aliquam minus praesentium dicta repellat
-                        voluptas. Modi maiores quia voluptatum praesentium? Nobis tempore animi ea vel! Soluta,
-                        doloremque?</p>
-                </div>
-                <label for="page2cb" title="Start"><b>START</b></label>
-            </page>
-            <!-- page 2 -->
-            <page id="page2">
-                <div>Page Two!</div>
-                <label for="page3cb" title="Next"><b>NEXT</b></label>
-            </page>
-            <!-- page 3 -->
-            <page id="page3">
-                <div>Page Three!</div>
-                <label for="page4cb" title="Next"><b>NEXT</b></label>
-            </page>
-            <!-- page 4 -->
-            <page id="page4">
-                <div>Page Four!</div>
-                <label for="page5cb" title="Next"><b>NEXT</b></label>
-            </page>
-            <!-- page 5 -->
-            <page id="page5">
-                <div>Page Five!</div>
-                <label for="page1cb" title="That's all folks!"><b>START AGAIN?</b></label>
-            </page>
+        <div>
+            <div class="titre">
+                <p class="valign-wrapper">[2023 - 2024]</p>
+                <h4>
+                    Odysée - Urbain
+                </h4>
+            </div>
+
+            <div class="right-align">
+                <p>
+                    Aménagement d’un
+                    parc résidentiel avec
+                    la construction de
+                    logements collectifs.
+                </p>
+            </div>
+
         </div>
     </div>
+    <div class="valign-wrapper">BRON [69]
+        Analyse urbaine</div>
+    <div class="row">
+        <p class="col s8">
+            ¹ Ce projet vise à élaborer un plan directeur pour la ville de Bron, proposant
+            un nouvel aménagement urbain attentif aux besoins des citadins. Dans
+            cette nouvelle ère, l’humanité est confrontée à de multiples menaces
+            qui pourraient potentiellement entraîner l’extinction de toutes les
+            formes de vie sur la planète Gaia, à long terme (bien que cette notion
+            soit relative par rapport à notre existence dans l’échelle temporelle).
 
+            <br>
+            <br>
+
+
+            ² Il devient impératif de prendre conscience et de comprendre le fonctionnement
+            de notre zone critique afin de proposer des solutions durables pour le
+            développement. Dans ce cas d’étude spécifique, les menaces identifiées
+            soulignent des opportunités qu’il est essentiel de saisir pour atteindre les
+            objectifs énoncés. Il sera nécessaire de proposer des idées novatrices
+            pour la conception de la ville, en cherchant à l’améliorer par une réflexion
+            approfondie. La centralité repose sur la diversité et l’abondance des individus
+            qui composent la société, ainsi que sur les fonctions qui façonnent l’économie.
+        </p>
+
+        <p class="col s4">
+            ³ Les lieux de centralité, superposés ou juxtaposés aux dimensions de
+            nœud et de pôle, contribuent à la création du phénomène urbain. Dans
+            ce schéma, les lieux de centralité sont intrinsèquement liés aux pôles,
+            qui attirent et concentrent les flux de personnes et de biens, ainsi qu’aux
+            nœuds (comme l’avenue Salengro), qui facilitent l’accès aux lieux de
+            centralité et de polarité.et de biens, ainsi qu’aux nœuds (comme l’avenue
+            Salengro), qui facilitent l’accès aux lieux de centralité et de polarité.
+        </p>
+
+        <img class="responsive-img" src="../assets/projet-archi/isometrie.png" alt="">
+    </div>
+
+
+
+    </div>
+    <!-- <img class="responsive-img" src="../assets/projet-archi/iconesCarte.png" alt="">
+            <img class="responsive-img" src="../assets/projet-archi/CarteSynthesefinal.png" alt=""> -->
     <?php
     include "../Templates/footer-desktop.php"
         ?>
