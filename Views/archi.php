@@ -108,18 +108,101 @@
 
                 <p class="col s6 right-align">Piéce graphique: Guerin Kelliane / Tom Soule-Beaud</p>
             </div>
+            <div class="container">
+                <img id="image" class="responsive-img" src="../assets/projet-archi/isometrie1.png"
+                    alt="Carte de stratégie">
+            </div>
 
-            <img id="image" class="responsive-img" src="../assets/projet-archi/isometrie1.png" alt="Carte de stratégie">
+            <div class="row synthese-analyse">
+
+                <img class="responsive-img" src="../assets/projet-archi/CarteSynthesefinal.png" alt="">
+
+                <div class="col s12 m8 icones-synthese-text">
+                    <div class="container">
+                        <img class="responsive-img" src="../assets/projet-archi/iconesCarte.png" alt="">
+                    </div>
+
+                    <div class="col s12 m12 text">
+
+                        <p class="valign-wrapper">
+                            SYNTHESE ANALYSE
+                        </p>
+
+                        <p class="valign-wrapper">
+                            Illustrator-Auto CAD
+                        </p>
+
+                        <p>
+                            À l’aide d’un diagnostic sensible et
+                            technique, la mobilité s’organise autour
+                            de grands axes majeurs desservant et
+                            sectorisant la métropole de Lyon de
+                            manière morcelée. Les voies principales
+                            transforment progressivement le
+                            paysage urbain, empiétant sur les
+                            espaces naturels au fil du temps.
+                            Simultanément, les voies secondaires
+                            établissent l’habitat de manière
+                            semblable à un système nerveux
+                            dépourvu d’une organisation réelle,
+                            tandis que l’habitat se structure
+                            fonctionnellement pour répondre aux
+                            besoins du plus grand nombre.
+                            L’introduction des transports en
+                            commun tente de résoudre le problème
+                            du fonctionnalisme, se révélant être un
+                            défi majeur dans la création de la ville de
+                            demain, car celle-ci apparaît morcelée
+                            et mal adaptée.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </li>
-        <li style="background: #f7ede2;"></li>
-        <li style="background: #f5cac3;"></li>
+        <li style="background: #f7ede2;">
+
+
+            <div class="thumbs">
+                <a href="#target1"><img src="../assets/projet-archi/plan-masse-commun.png"
+                        alt='Image plan masse commun'></a>
+                <a href="#target2"><img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'></a>
+                <a href="#target3"><img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'></a>
+
+            </div>
+
+            <div class="lightbox">
+                <div class="target" id="target1">
+                    <div class="content">
+                        <img src="../assets/projet-archi/plan-masse-commun.png" alt='Image plan masse commun'>
+                    </div>
+                    <a href="#target2" class="fas fa-chevron-right nav" title="next">next</a>
+                </div>
+                <div class="target" id="target2">
+                    <a href="#target1" class="fas fa-chevron-left nav" title="previous">previous</a>
+                    <div class="content"><img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'></div>
+                    <a href="#target3" class="fas fa-chevron-right nav" title="next">next</a>
+                </div>
+                <div class="target" id="target3">
+                    <a href="#target2" class="fas fa-chevron-left nav" title="previous">previous</a>
+                    <div class="content"><img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'></div>
+                </div>
+                <a href="#!" class="fas fa-times close nav">close</a>
+            </div>
+
+
+
+        </li>
+        <li style="background: #f5cac3;">
+
+
+        </li>
         <li style="background: #84a59d;"></li>
         <li style="background: #f28482;"></li>
     </ul>
 
 
-    <!-- <img class="responsive-img" src="../assets/projet-archi/iconesCarte.png" alt="">
-            <img class="responsive-img" src="../assets/projet-archi/CarteSynthesefinal.png" alt=""> -->
+
     <?php
     include "../Templates/footer-desktop.php"
         ?>
