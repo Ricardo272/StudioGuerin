@@ -117,6 +117,7 @@
 
                 <img class="responsive-img" src="../assets/projet-archi/CarteSynthesefinal.png" alt="">
 
+
                 <div class="col s12 m8 icones-synthese-text">
                     <div class="container">
                         <img class="responsive-img" src="../assets/projet-archi/iconesCarte.png" alt="">
