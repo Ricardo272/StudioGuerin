@@ -159,10 +159,6 @@
                 </div>
             </div>
 
-        </li>
-        <li style="background: #f7ede2;">
-
-
             <div class="thumbs">
                 <a href="#target1"><img src="../assets/projet-archi/plan-masse-commun.png"
                         alt='Image plan masse commun'></a>
@@ -176,20 +172,34 @@
                     <div class="content">
                         <img src="../assets/projet-archi/plan-masse-commun.png" alt='Image plan masse commun'>
                     </div>
-                    <a href="#target2" class="fas fa-chevron-right nav" title="next">next</a>
+                    <a href="#target2" class="fas fa-chevron-right nav" title="next">
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
                 </div>
                 <div class="target" id="target2">
-                    <a href="#target1" class="fas fa-chevron-left nav" title="previous">previous</a>
+                    <a href="#target1" class="fas fa-chevron-left nav" title="previous"> <i
+                            class="material-icons">keyboard_arrow_left</i>
+                    </a>
                     <div class="content"><img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'></div>
-                    <a href="#target3" class="fas fa-chevron-right nav" title="next">next</a>
+                    <a href="#target3" class="fas fa-chevron-right nav" title="next">
+                        <i class="material-icons">keyboard_arrow_right</i>
+                    </a>
                 </div>
                 <div class="target" id="target3">
-                    <a href="#target2" class="fas fa-chevron-left nav" title="previous">previous</a>
+                    <a href="#target2" class="fas fa-chevron-left nav" title="previous"> <i
+                            class="material-icons">keyboard_arrow_left</i>
+                    </a>
                     <div class="content"><img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'></div>
                 </div>
-                <a href="#!" class="fas fa-times close nav">close</a>
+                <a href="#!" class="fas fa-times close nav">
+                    <i class="material-icons">close</i>
+                </a>
             </div>
 
+
+
+        </li>
+        <li style="background: #f7ede2;">
 
 
         </li>
