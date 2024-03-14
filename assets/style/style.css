@@ -72,9 +72,7 @@
   justify-content: center;
   align-items: center;
   background-image: url("../Background/Lodge(16).jpg");
-  /* Set a specific height */
   min-height: 600px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,6 +110,10 @@
   background-color: #494a3c;
 }
 
+.archi *.illustratorCAD {
+  font-weight: 100;
+  font-size: small;
+}
 .archi .container h3 {
   font-weight: bold;
 }
@@ -122,13 +124,12 @@
   justify-content: center;
   align-items: center;
   background-image: url("../projet-archi/rendufinal1.jpg");
-  /* Set a specific height */
   min-height: 300px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 0 0px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
 }
 .archi .gallery {
   padding: 1rem;
@@ -148,6 +149,8 @@
   display: inline-block;
   border-radius: 3px;
   background-color: bisque;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
 }
 .archi .gallery li .container .titre {
   display: flex;
@@ -168,11 +171,12 @@
   line-height: 2rem;
 }
 .archi .gallery li .container img {
+  border-radius: 5px;
   box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
 }
 .archi .gallery li .container img:hover {
-  transform: scale(1.2);
-  /* Agrandit l'image de 20% au survol */
+  transform: scale(1.1);
+  /* Agrandit l'image de 10% au survol */
 }
 .archi .gallery li .row.synthese-analyse {
   display: flex;
@@ -181,60 +185,72 @@
 }
 .archi .gallery li .row.synthese-analyse img {
   width: 50%;
+  border-radius: 5px;
   box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
 }
 .archi .gallery li .row.synthese-analyse img:hover {
-  transform: scale(1.2);
-  /* Agrandit l'image de 20% au survol */
+  transform: scale(1.1);
+  /* Agrandit l'image de 10% au survol */
 }
 .archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text {
   margin: 2rem;
 }
 .archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text .container img {
   width: 20rem;
-  box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
-}
-.archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text img:hover {
-  transform: scale(1.2);
-  /* Agrandit l'image de 20% au survol */
-}
-.archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text .text p {
-  line-height: 2;
-  margin: 1.5rem;
-}
-.archi .active {
-  scroll-snap-type: unset;
-  cursor: grabbing;
-}
-
-.thumbs {
-  display: flex;
-  max-width: 100%;
-  justify-content: space-evenly;
-}
-.thumbs a {
-  max-width: 14.5rem;
-  height: 12.5rem;
-  margin: 10px;
-  overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
 }
-.thumbs a img {
+.archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text img:hover {
+  transform: scale(1);
+  /* Agrandit l'image de 10% au survol */
+}
+.archi .gallery li .row.synthese-analyse .col.s12.m8.icones-synthese-text .text {
+  margin: 1rem;
+  line-height: 2;
+}
+.archi .gallery li .thumbs {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.archi .gallery li .thumbs span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 14.5rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
+}
+.archi .gallery li .thumbs span a {
+  border-radius: 5px;
+  max-width: 14.5rem;
+  height: 12.5rem;
+  overflow: hidden;
   transform: scale(1);
   transition: transform 0.1s ease-in-out;
   filter: grayscale(50%);
+}
+.archi .gallery li .thumbs span a img {
   min-width: 100%;
   min-height: 100%;
   max-width: 100%;
   max-height: 100%;
 }
-.thumbs a:hover img {
+.archi .gallery li .thumbs span a:hover img {
   transform: scale(1.1);
   filter: grayscale(0%);
 }
-
-.lightbox {
+.archi .gallery li .thumbs span h6 {
+  height: 2.5rem;
+  text-align: center;
+}
+.archi .gallery li .thumbs span:hover {
+  text-decoration: underline;
+}
+.archi .gallery li .lightbox {
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
@@ -247,11 +263,11 @@
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-.lightbox:has(div:target) {
+.archi .gallery li .lightbox:has(div:target) {
   transform: translateY(0%);
   opacity: 1;
 }
-.lightbox a.nav {
+.archi .gallery li .lightbox a.nav {
   text-decoration: none;
   color: white;
   font-size: 40px;
@@ -259,10 +275,10 @@
   opacity: 0.5;
   font-weight: 200;
 }
-.lightbox a.nav:hover {
+.archi .gallery li .lightbox a.nav:hover {
   opacity: 1;
 }
-.lightbox .target {
+.archi .gallery li .lightbox .target {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -271,18 +287,18 @@
   align-items: center;
   justify-content: space-between;
 }
-.lightbox .target *:first-child,
-.lightbox .target *:last-child {
+.archi .gallery li .lightbox .target *:first-child,
+.archi .gallery li .lightbox .target *:last-child {
   flex: 0 0 100px;
   text-align: center;
 }
 @media all and (max-width: 600px) {
-  .lightbox .target *:first-child,
-  .lightbox .target *:last-child {
+  .archi .gallery li .lightbox .target *:first-child,
+  .archi .gallery li .lightbox .target *:last-child {
     flex: 0 0 50px;
   }
 }
-.lightbox .target .content {
+.archi .gallery li .lightbox .target .content {
   transform: scale(0.9);
   opacity: 0;
   flex: 1 1 auto;
@@ -295,7 +311,7 @@
   box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
   transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
 }
-.lightbox .target .content img {
+.archi .gallery li .lightbox .target .content img {
   min-width: 100%;
   min-height: 100%;
   max-width: 100%;
@@ -303,15 +319,33 @@
   display: block;
   margin: 0;
 }
-.lightbox .target:target {
+.archi .gallery li .lightbox .target:target {
   transform: scale(1);
 }
-.lightbox .target:target .content {
+.archi .gallery li .lightbox .target:target .content {
   transform: scale(1);
   opacity: 1;
 }
-.lightbox .close {
+.archi .gallery li .lightbox .close {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+.archi .gallery li .container .text-iso-illot {
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.4901960784);
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
+}
+.archi .gallery li .elevation-coupe-plan img {
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
+}
+.archi .gallery li .elevation-coupe-plan .container p {
+  text-align: center;
+}
+.archi .active {
+  scroll-snap-type: unset;
+  cursor: grabbing;
 }/*# sourceMappingURL=style.css.map */

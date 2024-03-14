@@ -102,34 +102,35 @@
             </div>
             <div class="row">
                 <span class="col s6">
-                    <p>ISOMÉTRIE TOPOGRAPHIQUE - Carte de stratégie </p>
-                    <p>Illustrator-Auto CAD </p>
+                    <h6>ISOMÉTRIE TOPOGRAPHIQUE - Carte de stratégie </h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD </p>
                 </span>
 
-                <p class="col s6 right-align">Piéce graphique: Guerin Kelliane / Tom Soule-Beaud</p>
+                <h6 class="col s6 right-align">Piéce graphique: Guerin Kelliane / Tom Soule-Beaud</h6>
             </div>
+
             <div class="container">
-                <img id="image" class="responsive-img" src="../assets/projet-archi/isometrie1.png"
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/isometrie1.png"
                     alt="Carte de stratégie">
             </div>
 
             <div class="row synthese-analyse">
 
-                <img class="responsive-img" src="../assets/projet-archi/CarteSynthesefinal.png" alt="">
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/CarteSynthesefinal.png" alt="">
 
 
                 <div class="col s12 m8 icones-synthese-text">
                     <div class="container">
-                        <img class="responsive-img" src="../assets/projet-archi/iconesCarte.png" alt="">
+                        <img class="responsive-img fullscreen" src="../assets/projet-archi/iconesCarte.png" alt="">
                     </div>
 
                     <div class="col s12 m12 text">
 
-                        <p class="valign-wrapper">
+                        <h6>
                             SYNTHESE ANALYSE
-                        </p>
+                        </h6>
 
-                        <p class="valign-wrapper">
+                        <p class="illustratorCAD">
                             Illustrator-Auto CAD
                         </p>
 
@@ -161,11 +162,27 @@
             </div>
 
             <div class="thumbs">
-                <a href="#target1"><img src="../assets/projet-archi/plan-masse-commun.png"
-                        alt='Image plan masse commun'></a>
-                <a href="#target2"><img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'></a>
-                <a href="#target3"><img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'></a>
-
+                <span>
+                    <a href="#target1">
+                        <img src="../assets/projet-archi/plan-masse-commun.png" alt='Image plan masse commun'>
+                    </a>
+                    <h6>PLAN MASSE - Plan guide du secteur</h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD</p>
+                </span>
+                <span>
+                    <a href="#target2">
+                        <img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'>
+                    </a>
+                    <h6>PLAN MASSE - Ilot</h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD</p>
+                </span>
+                <span>
+                    <a href="#target3">
+                        <img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
+                    </a>
+                    <h6>ISOMÉTRIE - Ilot </h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD</p>
+                </span>
             </div>
 
             <div class="lightbox">
@@ -197,22 +214,56 @@
                 </a>
             </div>
 
+            <div class="container">
+                <p class="text-iso-illot">Le processus de végétalisation
+                    commence principalement par la
+                    désartificialisation à grande échelle
+                    des sols. Dans le parc, la disposition
+                    de la végétation suit le tracé des voies
+                    piétonnes à l’intérieur de l’îlot. Ainsi, les
+                    espaces en pleine terre restants sont
+                    abondamment plantés avec différents
+                    types de végétation. Cette approche
+                    génère une biodiversité renforcée.
+                    L’accent est mis sur la réintégration du
+                    vivant au cœur des préoccupations,
+                    visant à établir une symbiose à long terme
+                    entre les éléments vivants et non vivants.</p>
+            </div>
 
+            <div class="elevation-coupe-plan">
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/Facadepsdnord.jpg" alt="">
+                <div class="container">
+                    <h6>ÉLÉVATION - Nord : Est</h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD</p>
+                    <p>
+                        Les terrasses ont été conçues pour faciliter les échanges entre les résidents. Elles
+                        sont attachées au bâtiment à l’aide de poteaux et de poutres en bois soutenus par des
+                        croix en contreventement. Ces terrasses agissent comme des filtres de lumière tout
+                        en offrant une expérience sensorielle plus immersive du lieu. De plus, elles encouragent
+                        l’intégration de la végétation grâce à l’utilisation de jardinières. La production d’énergie
+                        pour les espaces communs est assurée par des panneaux solaires installés sur le toit.
+                    </p>
+                </div>
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/coupe.jpg" alt="">
+                <div class="container">
+                    <h6>COUPE</h6>
+                    <p class="illustratorCAD">Illustrator-Auto CAD</p>
+                    <p>
+                        Les planchers des étages reposent sur le concept du plancher médiéval, entièrement
+                        construit en bois. Un pilier vertical central sert de support supplémentaire à la structure
+                        en bois, renforcé par du béton armé. Ce pilier a également une fonction de circulation
+                        verticale. Ainsi, le bâtiment est conçu en suivant des modèles structuraux standardisés.
+                    </p>
+                </div>
+            </div>
 
         </li>
-        <li style="background: #f7ede2;">
-
-
-        </li>
-        <li style="background: #f5cac3;">
-
-
-        </li>
+        <li style="background: #f7ede2;"></li>
+        <li style="background: #f5cac3;"></li>
         <li style="background: #84a59d;"></li>
         <li style="background: #f28482;"></li>
     </ul>
-
-
 
     <?php
     include "../Templates/footer-desktop.php"
