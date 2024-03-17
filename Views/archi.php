@@ -257,9 +257,21 @@
                     </p>
                 </div>
             </div>
+            <div class="container">
+                <embed src="../assets/projet-archi/Plan-reprise-Plan-de-niveaux-(2)-fusionné.pdf" width="800"
+                    height="400" type="application/pdf" />
+                <p>
+                    Téléchargez le fichier PDF ici :
+                    <a href="../assets/projet-archi/Plan-reprise-Plan-de-niveaux-(2)-fusionné.pdf">pdf-test.pdf</a>
+                </p>
+            </div>
 
         </li>
-        <li style="background: #f7ede2;"></li>
+        <li style="background: #f7ede2;">
+
+
+
+        </li>
         <li style="background: #f5cac3;"></li>
         <li style="background: #84a59d;"></li>
         <li style="background: #f28482;"></li>

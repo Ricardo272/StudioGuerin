@@ -345,6 +345,90 @@
 .archi .gallery li .elevation-coupe-plan .container p {
   text-align: center;
 }
+.archi .gallery li .container embed {
+  box-shadow: 0 0 0 0px white, 0 5px 8px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+.archi .gallery li .container .items {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.archi .gallery li .container .items .item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  z-index: -1;
+  opacity: 0;
+}
+.archi .gallery li .container .items .item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.archi .gallery li .container .items .item.active {
+  opacity: 1;
+  z-index: 99;
+  box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
+}
+.archi .gallery li .container .items .item.prev {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(-125%, -50%);
+}
+.archi .gallery li .container .items .item.next {
+  z-index: 2;
+  opacity: 0.25;
+  transform: translate(25%, -50%);
+}
+.archi .gallery li .container .items .button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 275px;
+  z-index: 100;
+}
+.archi .gallery li .container .items .button-container .button {
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.75;
+  transition: all 300ms ease-in-out;
+}
+.archi .gallery li .container .items .button-container .button:hover {
+  opacity: 1;
+}
+.archi .gallery li .container .items .button-container .button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  z-index: -99;
+}
+.archi .gallery li .container .items .button-container .button:nth-child(1) {
+  float: left;
+}
+.archi .gallery li .container .items .button-container .button:nth-child(2) {
+  float: right;
+}
 .archi .active {
   scroll-snap-type: unset;
   cursor: grabbing;
