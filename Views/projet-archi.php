@@ -37,56 +37,31 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
-            <div class="col s6 m4 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-            </div>
 
+    <div class="row">
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/IMG-20240123-WA0001.jpg" alt=''>
+        </div>
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/image-promise.jpg" alt=''>
+        </div>
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/Topographie3D222.jpg" alt=''>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/Lodge(22).jpg" alt=''>
+        </div>
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/ime(1).jpg" alt=''>
+        </div>
+        <div class="col s6 m4 l4">
+            <img class="responsive-img" src="../assets/projet-archi/otakup(3).jpg" alt=''>
+        </div>
+    </div>
+
     <?php
     include "../Templates/footer-desktop.php"
         ?>
