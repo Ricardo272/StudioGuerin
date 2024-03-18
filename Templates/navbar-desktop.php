@@ -5,7 +5,7 @@
 <div id="sticky_nav" class="navbar-fixed">
     <nav>
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="../Controllers/archi.php">Architecture</a></li>
+            <li><a href="../Controllers/projet-archi.php">Architecture</a></li>
             <li class="divider"></li>
             <li><a href="../Controllers/photo.php">Photographie</a></li>
             <li class="divider"></li>
