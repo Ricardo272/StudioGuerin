@@ -49,7 +49,7 @@
         <div class="row">
 
             <div class="col s6 m4 l4">
-                <a href="../Views/projet-archi/odysée-urbain.php">
+                <a href="../Views/odysee-urbain.php">
                     <img class="responsive-img" src="../assets/projet-archi/rendu-final-1.jpg"
                         alt='Image de présentation du projet'>
                     <h5>Odysée - Urbain</h5>

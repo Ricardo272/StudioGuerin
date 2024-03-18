@@ -22,7 +22,61 @@
     <?php
     include "../Templates/navbar-desktop.php"
         ?>
+    <div class="tableau-projet">
 
+        <div class="row">
+
+            <div class="col s6 m4 l4">
+                <a href="../Views/odysee-urbain.php">
+                    <img class="responsive-img" src="../assets/projet-archi/rendu-final-1.jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>Odysée - Urbain</h5>
+                </a>
+
+            </div>
+
+            <div class="col s6 m4 l4">
+                <a href="#">
+                    <img class="responsive-img" src="../assets/projet-archi/teste-lum_1-Photo.jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>Tersiaire - ERP</h5>
+                </a>
+            </div>
+
+            <div class="col s6 m4 l4">
+                <a href="#">
+                    <img class="responsive-img" src="../assets/projet-archi/SUITE_6 -Photo.jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>Observatoir - Habitat</h5>
+                </a>
+            </div>
+
+            <div class="col s6 m4 l4">
+                <a href="#">
+                    <img class="responsive-img" src="../assets/projet-archi/Lodge(5).jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>Lodge - hôtellerie</h5>
+                </a>
+            </div>
+
+            <div class="col s6 m4 l4">
+                <a href="#">
+                    <img class="responsive-img" src="../assets/projet-archi/ime(9).jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>IME - Scolaire</h5>
+                </a>
+            </div>
+
+            <div class="col s6 m4 l4">
+                <a href="#">
+                    <img class="responsive-img" src="../assets/projet-archi/otakup(11).jpg"
+                        alt='Image de présentation du projet'>
+                    <h5>Otaku - Bibliothéque</h5>
+                </a>
+            </div>
+
+        </div>
+    </div>
 
 
     <?php
