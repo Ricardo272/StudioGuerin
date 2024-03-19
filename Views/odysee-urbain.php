@@ -22,40 +22,33 @@
     <?php
     include "../Templates/navbar-desktop.php"
         ?>
+
     <div class="tableau-projet">
 
         <div class="row">
 
             <div class="col s6 m4 l4">
                 <a href="../Views/odysee-urbain.php">
-                    <img class="responsive-img" src="../assets/projet-archi/rendu-final-1.jpg"
-                        alt='Image de présentation du projet'>
-                    <h5>Odysée - Urbain</h5>
+                    <img class="responsive-img" src="../assets/projet-archi/isometrie1.png" alt="Carte de stratégie">
                 </a>
 
             </div>
 
             <div class="col s6 m4 l4">
                 <a href="#">
-                    <img class="responsive-img" src="../assets/projet-archi/teste-lum_1-Photo.jpg"
-                        alt='Image de présentation du projet'>
-                    <h5>Tersiaire - ERP</h5>
+                    <img src="../assets/projet-archi/plan-masse-commun.png" alt='Image plan masse commun'>
                 </a>
             </div>
 
             <div class="col s6 m4 l4">
                 <a href="#">
-                    <img class="responsive-img" src="../assets/projet-archi/SUITE_6 -Photo.jpg"
-                        alt='Image de présentation du projet'>
-                    <h5>Observatoir - Habitat</h5>
+                    <img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'>
                 </a>
             </div>
 
             <div class="col s6 m4 l4">
                 <a href="#">
-                    <img class="responsive-img" src="../assets/projet-archi/Lodge(5).jpg"
-                        alt='Image de présentation du projet'>
-                    <h5>Lodge - hôtellerie</h5>
+                    <img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
                 </a>
             </div>
 
@@ -63,7 +56,6 @@
                 <a href="#">
                     <img class="responsive-img" src="../assets/projet-archi/ime(9).jpg"
                         alt='Image de présentation du projet'>
-                    <h5>IME - Scolaire</h5>
                 </a>
             </div>
 
