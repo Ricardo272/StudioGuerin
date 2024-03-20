@@ -27,50 +27,82 @@
 
         <div class="row">
 
-            <div class="col s6 m4 l4">
-                <a href="../Views/odysee-urbain.php">
-                    <img class="responsive-img" src="../assets/projet-archi/isometrie1.png" alt="Carte de stratégie">
-                </a>
-
+            <div class="col s12 m6 l4">
+                <img class="responsive-img" src="../assets/projet-archi/rendu-final-1.jpg"
+                    alt='Image de présentation du projet'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s12 m6 l4">
+                <img class="responsive-img" src="../assets/projet-archi/isometrie1.png" alt="Carte de stratégie">
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="col s6 m4 l4">
-                <a href="#">
-                    <img src="../assets/projet-archi/plan-masse-commun.png" alt='Image plan masse commun'>
-                </a>
+            <div class="col s12 m12 l4">
+                <img class="responsive-img" src="../assets/projet-archi/plan-masse-commun.png"
+                    alt='Image plan masse commun'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="col s6 m4 l4">
-                <a href="#">
-                    <img src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'>
-                </a>
+            <div class="col s12 m6 l4">
+                <img class="responsive-img" src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="col s6 m4 l4">
-                <a href="#">
-                    <img src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
-                </a>
+            <div class="col s12 m6 l4">
+                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
 
-            <div class="col s6 m4 l4">
-                <a href="#">
-                    <img class="responsive-img" src="../assets/projet-archi/ime(9).jpg"
-                        alt='Image de présentation du projet'>
-                </a>
-            </div>
+            <div class="col s12 m12 l8">
+                <img class="responsive-img" src="../assets/projet-archi/Facadepsdnord.jpg"
+                    alt='Image de présentation du projet'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
 
-            <div class="col s6 m4 l4">
-                <a href="#">
-                    <img class="responsive-img" src="../assets/projet-archi/otakup(11).jpg"
-                        alt='Image de présentation du projet'>
-                    <h5>Otaku - Bibliothéque</h5>
-                </a>
+                <img class="responsive-img" src="../assets/projet-archi/coupe.jpg"
+                    alt='Image de présentation du projet'>
+                <ul class="collapsible popout">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
             </div>
 
         </div>
     </div>
 
-
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <?php
     include "../Templates/footer-desktop.php"
         ?>
