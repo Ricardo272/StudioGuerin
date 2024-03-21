@@ -552,4 +552,7 @@
 }
 .projets .tableau-projet .row .col:hover img {
   filter: grayscale(0%);
+}
+.projets .tableau-projet .row .col ul li .collapsible-body {
+  line-height: 2rem;
 }/*# sourceMappingURL=style.css.map */
