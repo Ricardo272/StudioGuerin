@@ -704,7 +704,7 @@
 }
 
 .projets {
-    background-color: #E3E5E7;
+    background-color: #1d1d1d;
 
     .tableau-projet {
         margin: 2rem;
@@ -729,15 +729,33 @@
                 &:hover {
                     img {
                         filter: grayscale(0%);
+                        cursor: pointer;
                     }
 
 
                 }
 
                 ul {
+                    border-radius: .5rem;
+
                     li {
+                        width: fit-content;
+                        border-radius: .5rem;
+
                         .collapsible-body {
+                            color: #d9d9d9;
+                            border-radius: 0.5rem;
                             line-height: 2rem;
+                            background-color: #565656;
+                            border-bottom: 1px solid #101010;
+                        }
+
+                        .collapsible-header {
+                            width: fit-content;
+                            border-radius: .5rem;
+                            line-height: 2rem;
+                            background-color: #8d8a8a;
+                            border-bottom: 1px solid #101010;
                         }
                     }
                 }

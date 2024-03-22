@@ -28,18 +28,20 @@
         <div class="row">
 
             <div class="col s12 m6 l4">
-                <img class="responsive-img" src="../assets/projet-archi/rendu-final-1.jpg"
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/rendu-final-1.jpg"
                     alt='Image de présentation du projet'>
                 <ul class="collapsible popout">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">location_city</i></div>
+                        <div class="collapsible-header"><i class="material-icons">location_city</i> Odysée - Urbain
+                        </div>
                         <div class="collapsible-body"><span>BRON [69]
                                 Analyse urbaine</span></div>
                     </li>
                 </ul>
             </div>
             <div class="col s12 m6 l4">
-                <img class="responsive-img" src="../assets/projet-archi/isometrie1.png" alt="Carte de stratégie">
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/isometrie1.png"
+                    alt="Carte de stratégie">
                 <ul class="collapsible popout">
                     <li>
                         <div class="collapsible-header"><i class="material-icons">filter_1</i></div>
@@ -88,7 +90,12 @@
                 </ul>
             </div>
             <div class="col s12 m12 l4">
-                <img class="responsive-img" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/iso-colo.jpg" alt='Image iso colo'>
+            </div>
+
+            <div class="col s12 m6 l6">
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/plan-masse.jpg"
+                    alt='Image plan masse'>
                 <ul class="collapsible popout">
                     <li>
                         <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
@@ -98,28 +105,35 @@
             </div>
 
             <div class="col s12 m6 l6">
-                <img class="responsive-img" src="../assets/projet-archi/plan-masse.jpg" alt='Image plan masse'>
-                <ul class="collapsible popout">
-                    <li>
-                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col s12 m6 l6">
-                <img class="responsive-img" src="../assets/projet-archi/plan-masse-commun.png"
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/plan-masse-commun.png"
                     alt='Image plan masse commun'>
                 <ul class="collapsible popout">
                     <li>
-                        <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                        <div class="collapsible-header"><i class="material-icons">satellite</i></div>
+                        <div class="collapsible-body">
+                            <span>
+                                Le processus de végétalisation
+                                commence principalement par la
+                                désartificialisation à grande échelle
+                                des sols. Dans le parc, la disposition
+                                de la végétation suit le tracé des voies
+                                piétonnes à l’intérieur de l’îlot. Ainsi, les
+                                espaces en pleine terre restants sont
+                                abondamment plantés avec différents
+                                types de végétation. Cette approche
+                                génère une biodiversité renforcée.
+                                L’accent est mis sur la réintégration du
+                                vivant au cœur des préoccupations,
+                                visant à établir une symbiose à long terme
+                                entre les éléments vivants et non vivants
+                            </span>
+                        </div>
                     </li>
                 </ul>
             </div>
 
             <div class="col s12 m12 l12">
-                <img class="responsive-img" src="../assets/projet-archi/Facadepsdnord.jpg"
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/Facadepsdnord.jpg"
                     alt='Image de présentation du projet'>
                 <ul class="collapsible popout">
                     <li>
@@ -128,7 +142,7 @@
                     </li>
                 </ul>
 
-                <img class="responsive-img" src="../assets/projet-archi/coupe.jpg"
+                <img class="responsive-img fullscreen" src="../assets/projet-archi/coupe.jpg"
                     alt='Image de présentation du projet'>
                 <ul class="collapsible popout">
                     <li>

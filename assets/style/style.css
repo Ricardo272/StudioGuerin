@@ -530,7 +530,7 @@
 }
 
 .projets {
-  background-color: #E3E5E7;
+  background-color: #1d1d1d;
 }
 .projets .tableau-projet {
   margin: 2rem;
@@ -552,7 +552,28 @@
 }
 .projets .tableau-projet .row .col:hover img {
   filter: grayscale(0%);
+  cursor: pointer;
+}
+.projets .tableau-projet .row .col ul {
+  border-radius: 0.5rem;
+}
+.projets .tableau-projet .row .col ul li {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
 }
 .projets .tableau-projet .row .col ul li .collapsible-body {
+  color: #d9d9d9;
+  border-radius: 0.5rem;
   line-height: 2rem;
+  background-color: #565656;
+  border-bottom: 1px solid #101010;
+}
+.projets .tableau-projet .row .col ul li .collapsible-header {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+  background-color: #8d8a8a;
+  border-bottom: 1px solid #101010;
 }/*# sourceMappingURL=style.css.map */
