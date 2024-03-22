@@ -46,7 +46,6 @@
 }
 
 .navbar-fixed {
-    background: #000;
     width: 100%;
     top: -48px;
     display: block;
@@ -54,7 +53,7 @@
     transition: all .5s ease;
 
     nav {
-        background: linear-gradient(#60648e, #545643);
+        background-color: #565656;
 
         .nav-wrapper {
             img {
@@ -80,6 +79,13 @@
                     a {
                         font-size: 1.5rem;
                         font-weight: bold;
+                        color: #101010;
+                    }
+
+                    ul {
+                        li {
+                            background-color: #8d8a8a;
+                        }
                     }
                 }
             }

@@ -33,7 +33,6 @@
 }
 
 .navbar-fixed {
-  background: #000;
   width: 100%;
   top: -48px;
   display: block;
@@ -41,7 +40,7 @@
   transition: all 0.5s ease;
 }
 .navbar-fixed nav {
-  background: linear-gradient(#60648e, #545643);
+  background-color: #565656;
 }
 .navbar-fixed nav .nav-wrapper img {
   width: 4rem;
@@ -61,6 +60,10 @@
 .navbar-fixed nav .nav-wrapper ul li a {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #101010;
+}
+.navbar-fixed nav .nav-wrapper ul li ul li {
+  background-color: #8d8a8a;
 }
 
 .page-footer {

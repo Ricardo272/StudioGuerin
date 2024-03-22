@@ -6,16 +6,16 @@
     <nav>
         <ul id="dropdown1" class="dropdown-content">
             <li><a href="../Controllers/projet-archi.php">Projets Architecture</a></li>
-            <li class="divider"></li>
+            <hr>
             <li><a href="../Controllers/photo.php">Projets Photographie</a></li>
-            <li class="divider"></li>
+            <hr>
             <li><a href="../Controllers/design.php">Projets Design</a></li>
         </ul>
         <ul id="dropdown2" class="dropdown-content">
             <li><a href="#!">Architecture</a></li>
-            <li class="divider"></li>
+            <hr>
             <li><a href="#!">Photographie</a></li>
-            <li class="divider"></li>
+            <hr>
             <li><a href="#!">Design</a></li>
         </ul>
 
